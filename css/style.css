@@ -1,7 +1,6 @@
 /* GLOBAL */
 
 :root {
-    /* --font_inter: 'Inter', sans-serif; */
     --color_bitcoin_orange: #F7931A;
     --color_soft_orange: #FFE9D5;
     --color_secondary_blue: #1A9AF7;
@@ -9,6 +8,8 @@
     --color_warm_black: #201E1C;
     --color_warm_black2: #282623;
     --color_grey: #BABABA;
+    --color_soft_grey: #B5B0AC;
+    --color_dark_grey: #757575;
     --color_off_white: #FAF8F7;
     --color_just_withe: #FFFFFF;
 }
@@ -26,6 +27,12 @@ html {
 
 body {
     font-size: 16px;
+}
+
+/* UTILITIES */
+
+.grid {
+    display: grid;
 }
 
 /* HEADER */
@@ -99,4 +106,208 @@ header img {
     height: 0.8rem;
     margin-left: 1rem;
     background-image: url(../assets/icons/down-arrow.svg);
+}
+
+/* MAIN CONTENT */
+
+main {
+    width: 100%;
+    height: auto;
+    background: var(--color_off_white);
+}
+
+/* MAIN EXCHANGE CONTENT */
+
+.main_exchange_container {
+    width: 100%;
+    height: auto;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.main_exchange_image {
+    background: url(../assets/images/Bitcoin.svg);
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_exchange_info {}
+
+.main_exchange_info h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--color_warm_black);
+    margin-bottom: 3rem;
+}
+
+.main_exchange_info p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--color_grey);
+    margin-bottom: 4rem;
+}
+
+/* TABLES CONTAINER */
+
+.main_table_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* CURRENCY TABLE CONTENT */
+
+.currency_table {
+    grid: 1fr / 1fr 1fr;
+    text-align: justify;
+    min-width: 24rem;
+    max-width: 24rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.coin_name:nth-child(2) {
+    border-top-left-radius: 0.8rem;
+}
+
+.coin_name:nth-child(8) {
+    border-bottom-left-radius: 0.8rem;
+}
+
+.coin_value:nth-child(3) {
+    border-top-right-radius: 0.8rem;
+}
+
+.coin_value:nth-child(9) {
+    border-bottom-right-radius: 0.8rem;
+}
+
+.currency_table_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: var(--color_bitcoin_orange);
+    grid-column: 1 / 3;
+    padding: 1.3rem;
+}
+
+.coin_value,
+.coin_name {
+    background: var(--color_just_withe);
+    margin: 0.1rem;
+    padding: 1.3rem;
+}
+
+.coin_name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--color_soft_grey);
+}
+
+.coin_value {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: var(--color_dark_grey);
+}
+
+.coin_value span {
+    display: inline-block;
+    margin-left: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../assets/icons/trending-down.svg);
+    background-repeat: no-repeat;
+}
+
+.currency_table div:nth-child(5) span {
+    display: inline-block;
+    margin-left: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../assets/icons/trending-up.svg);
+    background-repeat: no-repeat;
+}
+
+.current_currency {
+    grid-column: 1 / 3;
+    text-align: center;
+    margin: 1.6rem auto;
+    padding: 0.8rem;
+    width: 70%;
+    background-color: var(--color_soft_orange);
+    border-radius: 0.8rem;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: var(--color_warm_black2);
+}
+
+.current_currency span {
+    font-weight: 700;
+}
+
+/* EXCHANGE TABLE CONTENT */
+
+.commisions_table {
+    grid: 1fr / 1fr 1fr;
+    text-align: justify;
+    min-width: 24rem;
+    max-width: 24rem;
+    font-family: 'Inter', sans-serif;
+    display: none;
+}
+
+.exchange_name:nth-child(2) {
+    border-top-left-radius: 0.8rem;
+}
+
+.exchange_name:nth-child(8) {
+    border-bottom-left-radius: 0.8rem;
+}
+
+.exchange_value:nth-child(3) {
+    border-top-right-radius: 0.8rem;
+}
+
+.exchange_value:nth-child(9) {
+    border-bottom-right-radius: 0.8rem;
+}
+
+.commisions_table_title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: var(--color_secondary_blue);
+    grid-column: 1 / 3;
+    padding: 1.3rem;
+}
+
+.exchange_value,
+.exchange_name {
+    background: var(--color_just_withe);
+    margin: 0.1rem;
+    padding: 1.3rem;
+}
+
+.exchange_name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--color_soft_grey);
+}
+
+.exchange_value {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: var(--color_dark_grey);
 }
