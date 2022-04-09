@@ -116,7 +116,7 @@ main {
     background: var(--color_off_white);
 }
 
-/* MAIN EXCHANGE CONTENT */
+/* EXCHANGE CONTENT */
 
 .main_exchange_container {
     width: 100%;
@@ -310,4 +310,113 @@ main {
     font-weight: 400;
     line-height: 1.7rem;
     color: var(--color_dark_grey);
+}
+
+/* PRODUCT DETAILS CONTENT */
+
+.main_product_detail_container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+
+    background: var(--color_warm_black);
+}
+
+.product_logo_batata {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    top: calc(0% - 1.2rem);
+    left: calc(50% - 2rem);
+    background: url(../assets/icons/batata.svg);
+
+}
+
+.product_detail_title {
+    padding: 5rem 0rem 0rem 0rem;
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product_detail_title h2 {
+    color: var(--color_just_withe);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.product_detail_title p {
+    color: var(--color_dark_grey);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.product_detail {
+    width: 90%;
+    background: var(--color_warm_black2);
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+    box-shadow: 0rem 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.product_detail h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin: 1.2rem 0rem 1rem 1.6rem;
+    color: var(--color_just_withe);
+}
+
+.product_detail p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin: 0rem 2rem 0rem 1.6rem;
+    color: var(--color_dark_grey);
+    padding-bottom: 2.2rem;
+}
+
+.icon_clock {
+    background: url(../assets/icons/clock.svg);
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.6rem;
+    display: inline-block;
+}
+
+.icon_eye {
+    background: url(../assets/icons/eye.svg);
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.6rem;
+    display: inline-block;
+}
+
+.icon_dollar {
+    background: url(../assets/icons/dollar-sign.svg);
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.6rem;
+    display: inline-block;
+}
+
+.icon_check {
+    background: url(../assets/icons/check-circle.svg);
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.6rem;
+    display: inline-block;
 }
