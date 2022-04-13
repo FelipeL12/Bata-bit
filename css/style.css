@@ -481,10 +481,9 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    padding: 2rem;
-    width: 100%;
+    padding-top: 2rem;
     margin-top: 5rem;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 .plans_container_card {
@@ -500,6 +499,8 @@ main {
     border-radius: 1rem;
     box-shadow: 0rem 4rem 8rem rgba(89, 73, 30, 0.16);
     background: var(--color_just_withe);
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
 }
 
 .plans_container_card p:nth-child(1) {
@@ -569,4 +570,36 @@ main {
     height: 2rem;
     background-image: url(../assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
+}
+
+/* FOOTER CONTENT */
+
+.footer {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--color_bitcoin_orange);
+}
+
+.footer_links ul {
+    list-style: none;
+}
+
+.footer_links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer_links a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: var(--color_just_withe);
+}
+
+.footer_img {
+    width: 6.4rem;
+    height: 5rem;
 }
