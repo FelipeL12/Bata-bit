@@ -442,7 +442,7 @@ main {
     width: 100%;
     min-width: 32rem;
     min-height: 60vh;
-    background: url(../assets/images/bitcoinbaby2x.jpg);
+    background: url(../assets/images/bitcoinbaby.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -646,6 +646,15 @@ main {
 
     .product_detail_title h2 {
         margin-bottom: 1.2rem;
+    }
+
+    /* BITCOIN GIRL CONTENT */
+
+    .bitcoin_girl {
+        background: url(../assets/images/bitcoinbaby2x.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     /* PLANS CONTENT */
