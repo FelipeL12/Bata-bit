@@ -17,7 +17,7 @@ This is a Batata bit page
 
 ### Screenshot
 
--Desktop site:
+-Desktop site: <br>
 ![batata_desktop_1](https://user-images.githubusercontent.com/80472739/163427462-b1f2e708-ebb9-4189-bdc8-55011f85a544.jpg)
 ![batata_desktop_2](https://user-images.githubusercontent.com/80472739/163427490-f082be82-a606-4453-b707-74cc6c28bf74.jpg)
 
