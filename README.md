@@ -25,7 +25,7 @@ This is a Batata bit page
 
 
 -Mobile site: <br>
-![batata_mobile_1](https://user-images.githubusercontent.com/80472739/163427524-10e013b5-b26c-43e8-a062-62f22b4bdd81.jpg)
+![batata_mobile_1](https://user-images.githubusercontent.com/80472739/163428200-1c1f17eb-186f-4929-aa17-d738345d21cf.jpg)
 ![batata_mobile_2](https://user-images.githubusercontent.com/80472739/163427549-2d6e9e7a-bb41-47a2-b2c6-8584895d71b2.jpg)
 ![batata_mobile_3](https://user-images.githubusercontent.com/80472739/163427556-198fc1fc-6a5f-4b56-b3a7-08c1a990670e.jpg)
 
